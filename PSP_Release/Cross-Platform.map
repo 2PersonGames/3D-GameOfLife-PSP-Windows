@@ -1,0 +1,1963 @@
+Address  Size     Align Out     In      File    Symbol
+=================================================================
+UNDEFINED
+	                      WEAK reference (not mandatory)  __stack_chk_guard
+	                      WEAK reference (not mandatory)  sce_user_main_thread_name
+	                      WEAK reference (not mandatory)  sce_user_main_thread_priority
+	                      WEAK reference (not mandatory)  sce_user_main_thread_stack_kb_size
+	                      WEAK reference (not mandatory)  sce_user_main_thread_attribute
+	                      WEAK reference (not mandatory)  sce_newlib_heap_delayed_alloc
+	                      WEAK reference (not mandatory)  _reent_init_ptr
+	                      WEAK reference (not mandatory)  _setmodreent
+	                      WEAK reference (not mandatory)  sceGprofCountStart
+	                      WEAK reference (not mandatory)  sceGprofCountEnd
+	                      WEAK reference (not mandatory)  _getmodreent
+	                      WEAK reference (not mandatory)  _clrmodreent
+	                      WEAK reference (not mandatory)  sce_newlib_heap_kb_size
+00000000 00000000     1 .init
+00000000 00000000     1         .init
+00000000 00000000     1         <default>
+00000000 00000000     1 .plt
+00000000 00000000     1         .plt
+00000000 00000000     1         <default>
+00000000 00016514     4 .text
+00000000 0000e7ec     4         .text
+00000000 0000076c     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\CubeData.obj
+00000000 000000e0     0                         CubeData::CubeData(unsigned char, unsigned char, unsigned char)
+000000e0 0000005c     0                         CubeData::~CubeData(void)
+0000013c 0000002c     0                         CubeData::GetLineData(unsigned char, unsigned char)
+00000168 00000040     0                         CubeData::GetCubeState(unsigned char, unsigned char, unsigned char)
+000001a8 00000010     0                         CubeData::GetSize(void) const
+000001b8 0000004c     0                         CubeData::SetCubeState(CartesianCoordinate)
+00000204 00000258     0                         CubeData::Update(void)
+0000045c 00000310     0                         CubeData::CheckNeighbours(CartesianCoordinate)
+0000076c 00000448     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\FrontEnd.obj
+0000076c 00000024     0                         FrontEnd::FrontEnd(void)
+00000790 0000002c     0                         FrontEnd::~FrontEnd(void)
+000007bc 0000019c     0                         FrontEnd::StartUpDisplay(void)
+00000958 000000b4     0                         FrontEnd::StartRendering(void)
+00000a0c 00000038     0                         FrontEnd::StopRendering(void)
+00000a44 0000012c     0                         FrontEnd::RenderCube(float, float, float)
+00000b70 00000008     0                         FrontEnd::SetForegroundColour(unsigned int)
+00000b78 0000002c     0                         FrontEnd::SetCameraView(ScePspFVector3 *)
+00000ba4 00000008     0                         FrontEnd::GetForegroundColour(void) const
+00000bac 00000008     0                         FrontEnd::GetCameraView(void)
+00000bb4 000002d4     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+00000bb4 000002d4     0                         main
+00000e88 00000408     4                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+00000e88 00000114     0                         _start
+00001260 00000030     0                         _stop
+00000f9c 000002c4     0                         _main
+00001290 00000698     4                 C:\cygwin\usr\local\psp\devkit\lib\kernel_bridge.o
+00001290 00000098     0                         _open
+00001328 00000130     0                         _lseek
+00001458 000000e8     0                         _exit
+00001878 0000003c     0                         __free_heap
+00001540 000000f0     0                         _sbrk
+00001630 000000a4     0                         _read
+000016d4 000000a4     0                         _write
+00001778 00000084     0                         _close
+000017fc 00000010     0                         _fstat
+0000180c 00000008     0                         isatty
+00001814 0000001c     0                         _rename
+00001830 00000008     0                         _stat
+00001838 00000008     0                         _fcntl
+00001840 00000008     0                         _link
+00001848 00000008     0                         _unlink
+00001850 00000008     0                         _kill
+00001858 00000008     0                         _getpid
+00001860 00000008     0                         _fork
+00001868 00000008     0                         _wait
+00001870 00000008     0                         _execve
+000018b4 0000001c     0                         clock
+000018d0 0000001c     0                         time
+000018ec 0000001c     0                         _gettimeofday
+00001908 00000008     0                         _times
+00001910 00000010     0                         sigfillset
+00001920 00000008     0                         sigprocmask
+00001928 00000028     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(getreent.obj)
+00001928 00000028     0                         __getreent
+00001950 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(impure.obj)
+00001950 000001f8     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(reent.obj)
+00001950 0000004c     0                         cleanup_glue
+0000199c 00000110     0                         _reclaim_reent
+00001aac 0000009c     0                         _wrapup_reent
+00001b48 000000a4     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(atexit.obj)
+00001b48 000000a4     0                         atexit
+00001bec 000000ac     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(exit.obj)
+00001bec 000000ac     0                         exit
+00001c98 00000048     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(malloc.obj)
+00001c98 00000024     0                         malloc
+00001cbc 00000024     0                         free
+00001ce0 00000034     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memset.obj)
+00001ce0 00000034     0                         memset
+00001d14 00000024     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strlen.obj)
+00001d14 00000024     0                         strlen
+00001d38 0000091c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mallocr.obj)
+00001d38 000002e8     0                         malloc_extend_top
+00002020 00000634     0                         _malloc_r
+00002654 0000045c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(freer.obj)
+00002654 000002ac     0                         _free_r
+00002900 000001b0     0                         _malloc_trim_r
+00002ab0 00000070     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mlock1.obj)
+00002ab0 0000003c     0                         __malloc_lock
+00002aec 00000034     0                         __malloc_unlock
+00002b20 00000054     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(sbrkr.obj)
+00002b20 00000054     0                         _sbrk_r
+00002b74 00000000     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00002b74 00000000     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00002b74 00000000     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_10.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_16.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_18.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_19.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_4.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_7.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_1.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_5.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_9.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_1.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_10.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_12.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_14.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_5.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_1.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_4.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_5.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_1.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_10.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_2.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_3.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_6.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_8.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_12.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_128.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_131.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_26.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_33.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_34.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_40.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_65.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_89.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_13.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_19.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_3.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_1.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_3.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_12.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_head.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_1.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_2.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_4.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_7.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_10.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_11.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_12.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_13.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_16.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_17.o)
+00002b74 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_head.o)
+00002b74 00000044     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_del.obj)
+00002b74 00000044     0                         operator delete[](void *)
+00002bb8 0000004c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_new.obj)
+00002bb8 0000004c     0                         operator new[](unsigned int)
+00002c04 0000005c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(delete.obj)
+00002c04 0000004c     0                         operator delete(void *)
+00002c50 00000010     0                         operator delete(void *, void *)
+00002c60 000003c8     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00002ce0 00000060     0                         std::exception::~exception(void)
+00002d40 00000018     0                         std::exception::what(void) const
+00002edc 000000dc     0                         std::bad_exception::~bad_exception(void)
+00002fb8 00000018     0                         std::bad_exception::what(void) const
+00002c60 00000040     0                         std::exception::exception(void)
+00002ca0 00000040     0                         std::exception::exception(const std::exception &)
+00002d58 00000014     0                         std::exception::operator=(const std::exception &)
+00002d6c 000000b8     0                         std::bad_exception::bad_exception(void)
+00002e24 000000b8     0                         std::bad_exception::bad_exception(const std::bad_exception &)
+00002fd0 00000058     0                         std::bad_exception::operator=(const std::bad_exception &)
+00003028 0000021c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(new.obj)
+00003028 000000ac     0                         operator new(unsigned int)
+000030d4 00000170     0                         operator new(unsigned int, const std::nothrow_t &)
+00003244 000000cc     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(newhandler.obj)
+00003244 000000cc     0                         __default_new_handler(void)
+00003310 00000164     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(static_init.obj)
+00003310 0000012c     0                         __do_global_ctors
+0000343c 0000001c     0                         __snmain
+00003458 0000001c     0                         __do_global_dtors
+00003474 00000f18     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(throw.obj)
+00003474 0000003c     0                         eh_get_memory(unsigned int)
+000034b0 0000001c     0                         eh_free_memory(void *)
+000034cc 00000018     0                         mem_block_descr_init(a_mem_block_descr *)
+000034e4 00000050     0                         init_eh_memory_management(void)
+00003534 00000060     0                         alloc_in_mem_block(unsigned int, a_mem_allocation **)
+00003594 0000009c     0                         alloc_new_mem_block(unsigned int)
+00003630 00000090     0                         eh_alloc_on_stack(unsigned int)
+000036c0 00000030     0                         free_in_mem_block(void *)
+000036f0 00000064     0                         eh_free_on_stack(void *)
+00003754 00000194     0                         cleanup(an_eh_stack_entry *, unsigned short, unsigned short)
+000038e8 00000204     0                         check_exception_type_specifications(an_exception_type_specification *, a_type_info_impl *, unsigned char, unsigned char *, char *, int, void **, an_exception_type_specification **)
+00003aec 000000a0     0                         destroy_thrown_object(a_throw_stack_entry *)
+00003bc8 00000168     0                         push_throw_stack(a_type_info_impl *, void (*)(void *, int), unsigned char, unsigned char *, char *, int, void *, unsigned char *, a_throw_stack_entry *)
+00003b8c 00000028     0                         __exception_started
+00003bb4 00000014     0                         __exception_caught
+00003d30 00000098     0                         __rethrow
+00003fc8 000003c4     0                         __throw
+00003dc8 00000024     0                         __internal_rethrow
+00003dec 00000070     0                         __throw_setup
+00003e5c 00000080     0                         __free_thrown_object
+00003edc 0000000c     0                         __eh_exit_processing
+00003ee8 00000008     0                         __suppress_optim_on_vars_in_try
+00003ef0 0000000c     0                         __get_curr_eh_stack_entry
+00003efc 0000002c     0                         __type_of_thrown_object
+00003f28 000000a0     0                         __can_throw_type
+0000438c 00000644     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+0000438c 00000034     0                         std::type_info::~type_info(void)
+00004620 000000dc     0                         std::bad_cast::~bad_cast(void)
+000046fc 00000018     0                         std::bad_cast::what(void) const
+000048dc 000000dc     0                         std::bad_typeid::~bad_typeid(void)
+000049b8 00000018     0                         std::bad_typeid::what(void) const
+000043c0 00000030     0                         std::type_info::operator==(const std::type_info &) const
+000043f0 00000030     0                         std::type_info::operator!=(const std::type_info &) const
+00004420 00000030     0                         std::type_info::before(const std::type_info &) const
+00004450 00000008     0                         std::type_info::name(void) const
+00004458 000000b8     0                         std::bad_cast::bad_cast(void)
+00004510 000000b8     0                         std::bad_cast::bad_cast(const std::bad_cast &)
+000045c8 00000058     0                         std::bad_cast::operator=(const std::bad_cast &)
+00004714 000000b8     0                         std::bad_typeid::bad_typeid(void)
+000047cc 000000b8     0                         std::bad_typeid::bad_typeid(const std::bad_typeid &)
+00004884 00000058     0                         std::bad_typeid::operator=(const std::bad_typeid &)
+000049d0 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(vars.obj)
+000049d0 000007fc     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(vec_newdel.obj)
+000049d0 00000044     0                         add_vec_new_or_delete_eh_stack_entry(an_eh_stack_entry *, an_array_alloc_eh_info *, int)
+00004a14 00000054     0                         alloc_array(unsigned int, void (*)(void *), void (*)(void *, int), void * (*)(unsigned int), unsigned int)
+00004a68 0000005c     0                         free_array(void *, unsigned int, void (*)(void *, int), void (*)(void *), int, unsigned int)
+00004ac4 00000024     0                         record_array_alloc_info(void *, unsigned int, int, void (*)(void *), void (*)(void *, int), void * (*)(unsigned int), void *, int, unsigned int)
+00004ae8 00000050     0                         get_array_size(void *, unsigned int, unsigned int)
+00004b38 0000020c     0                         array_new_general(void *, int, unsigned int, void *, void (*)(void *), void (*)(void *, int), void * (*)(unsigned int), void *, int, int, int, unsigned int)
+00004fd4 00000188     0                         array_delete_general(void *, int, unsigned int, void (*)(void *, int), int, void (*)(void *), int, unsigned int)
+000051b0 0000001c     0                         _array_pointer_not_from_vec_new
+00004d44 00000054     0                         __array_new
+00004d98 00000048     0                         __placement_array_new
+00004de0 00000044     0                         __vec_new_eh
+00004e24 00000044     0                         __vec_new
+00004e68 0000003c     0                         __vec_cctor_eh
+00004ea4 00000048     0                         __vec_new_eh_zero
+00004eec 000000e8     0                         __cleanup_vec_new_or_delete
+0000515c 00000028     0                         __vec_delete
+00005184 0000002c     0                         __array_delete
+000051cc 0000011c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(dtor_list.obj)
+000051cc 00000090     0                         __process_needed_destructions
+0000525c 0000001c     0                         __already_marked_for_destruction
+00005278 00000054     0                         __record_needed_destruction
+000052cc 0000001c     0                         __std__needed_destruction_list
+000052e8 00000298     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(eh_util.obj)
+000052e8 0000001c     0                         __default_terminate
+00005304 00000150     0                         __call_unexpected
+000054d8 00000034     0                         std::unexpected(void)
+00005454 00000034     0                         __call_terminate
+00005488 00000034     0                         std::terminate(void)
+000054bc 0000001c     0                         std::set_terminate(void (*)(void))
+0000550c 0000001c     0                         std::set_unexpected(void (*)(void))
+00005528 00000058     0                         std::uncaught_exception(void)
+00005580 0000017c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(error.obj)
+00005580 0000009c     0                         error_text(an_error_code)
+0000561c 0000006c     0                         display_abort_message(an_error_code)
+00005688 0000002c     0                         __abort_execution
+000056b4 00000024     0                         _pure_error_
+000056d8 00000024     0                         std::Terminate(void)
+000056fc 000003a4     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(rtti.obj)
+000059c4 00000038     0                         __throw_bad_cast(void)
+000056fc 00000230     0                         __derived_to_base_conversion
+0000592c 00000098     0                         __dynamic_cast
+000059fc 00000038     0                         __throw_bad_typeid(void)
+00005a34 0000003c     0                         __dynamic_cast_ref
+00005a70 00000030     0                         __get_typeid
+00005aa0 00000110     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_cos.obj)
+00005aa0 00000110     0                         cosf
+00005bb0 00000114     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_sin.obj)
+00005bb0 00000114     0                         sinf
+00005cc4 00000150     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(wf_sqrt.obj)
+00005cc4 00000150     0                         sqrtf
+00005e14 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(s_lib_ver.obj)
+00005e14 00000008     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(s_matherr.obj)
+00005e14 00000008     0                         matherr
+00005e1c 00000474     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(ef_rem_pio2.obj)
+00005e1c 00000474     0                         __ieee754_rem_pio2f
+00006290 00000140     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(ef_sqrt.obj)
+00006290 00000140     0                         __ieee754_sqrtf
+000063d0 00000148     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_cos.obj)
+000063d0 00000148     0                         __kernel_cosf
+00006518 00000824     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_rem_pio2.obj)
+00006518 00000824     0                         __kernel_rem_pio2f
+00006d3c 00000100     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_sin.obj)
+00006d3c 00000100     0                         __kernel_sinf
+00006e3c 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_fabs.obj)
+00006e3c 00000018     0                         fabsf
+00006e54 00000114     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_floor.obj)
+00006e54 00000114     0                         floorf
+00006f68 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_isnan.obj)
+00006f68 00000020     0                         isnanf
+00006f88 000001bc     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_scalbn.obj)
+00006f88 000001bc     0                         scalbnf
+00007144 00000028     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_copysign.obj)
+00007144 00000028     0                         copysignf
+0000716c 00000010     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsn.a(init.obj)
+0000716c 00000008     0                         _init
+00007174 00000008     0                         _fini
+0000717c 0000004c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_sf_to_df.o)
+0000717c 0000004c     0                         __extendsfdf2
+000071c8 00000224     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_div_df.o)
+000071c8 00000224     0                         __divdf3
+000073ec 00000034     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_df.o)
+000073ec 00000034     0                         __make_dp
+00007420 00000078     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_sf.o)
+00007420 00000078     0                         __truncdfsf2
+00007498 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_thenan_df.o)
+00007498 000000cc     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_sf.o)
+00007498 000000cc     0                         __unpack_f
+00007564 00000030     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_sf.o)
+00007564 00000030     0                         __make_fp
+00007594 000002a0     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_df.o)
+00007594 000002a0     0                         __pack_d
+00007834 0000011c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_df.o)
+00007834 0000011c     0                         __unpack_d
+00007950 00000164     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_sf.o)
+00007950 00000164     0                         __pack_f
+00007ab4 0000000c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(errno.obj)
+00007ab4 0000000c     0                         __errno
+00007ac0 000000d0     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(setjmp.obj)
+00007ac0 00000064     0                         setjmp
+00007b24 0000006c     0                         longjmp
+00007b90 00000044     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(fprintf.obj)
+00007b90 00000044     0                         fprintf
+00007bd4 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(abort.obj)
+00007bd4 00000018     0                         abort
+00007bec 00002384     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfprintf.obj)
+000084e0 0000015c     0                         _vfwrite
+00007bec 00000064     0                         strround
+00007c50 0000006c     0                         strrev
+00007cbc 0000009c     0                         itoa
+00007d58 00000760     0                         fftoa
+000084b8 00000028     0                         _vfflush
+0000863c 000000f0     0                         vfprintf
+0000872c 00001678     0                         _vfprintf_r
+00009da4 000001cc     0                         add_separators
+00009f70 0000166c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfiprintf.obj)
+00009f70 0000015c     0                         _vfwrite
+0000a0cc 00000028     0                         vfiprintf
+0000a0f4 000014e8     0                         _vfiprintf_r
+0000b5dc 0000029c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(locale.obj)
+0000b5dc 00000248     0                         _setlocale_r
+0000b824 0000000c     0                         _localeconv_r
+0000b830 00000028     0                         setlocale
+0000b858 00000020     0                         localeconv
+0000b878 000011ec     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(math_support.obj)
+0000b878 00000258     0                         sn_floor
+0000bad0 0000046c     0                         sn_fmod
+0000bf3c 000008c4     0                         sn_log
+0000c800 00000264     0                         sn_log10
+0000ca64 00000604     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mbtowc_r.obj)
+0000ca64 00000604     0                         _mbtowc_r
+0000d068 00000044     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memchr.obj)
+0000d068 00000044     0                         memchr
+0000d0ac 00000040     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memcpy.obj)
+0000d0ac 00000040     0                         memcpy
+0000d0ec 00000034     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strcmp.obj)
+0000d0ec 00000034     0                         strcmp
+0000d120 00000044     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strcpy.obj)
+0000d120 00000044     0                         strcpy
+0000d164 00000574     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_udivdi3.o)
+0000d164 00000574     0                         __udivdi3
+0000d6d8 000005c4     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_umoddi3.o)
+0000d6d8 000005c4     0                         __umoddi3
+0000dc9c 00000424     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_addsub_df.o)
+0000dc9c 00000348     0                         _fpadd_parts
+0000dfe4 00000068     0                         __adddf3
+0000e04c 00000074     0                         __subdf3
+0000e0c0 00000378     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_mul_df.o)
+0000e0c0 00000378     0                         __muldf3
+0000e438 0000005c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_compare_df.o)
+0000e438 0000005c     0                         __cmpdf2
+0000e494 000000dc     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_si_to_df.o)
+0000e494 000000dc     0                         __floatsidf
+0000e570 000000d4     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_si.o)
+0000e570 000000d4     0                         __fixdfsi
+0000e644 00000044     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_negate_df.o)
+0000e644 00000044     0                         __negdf2
+0000e688 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_clz.o)
+0000e688 00000164     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_fpcmp_parts_df.o)
+0000e688 00000164     0                         __fpcmp_parts_d
+0000e7ec 00000000     1         .stub
+0000e7ec 00007b7c     4         .text.*
+0000e7ec 0000013c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000e7ec 0000013c     0                         sceGuInit
+0000e928 00000268     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000e928 00000268     0                         sceGuStart
+0000eb90 000001a4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000eb90 000001a4     0                         sceGuFinishId
+0000ed34 000000b4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000ed34 000000b4     0                         sceGuSignalSync
+0000ede8 000000b4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000ede8 000000b4     0                         sceGuCallList
+0000ee9c 000000a4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000ee9c 000000a4     0                         sceGuSendList
+0000ef40 000000dc     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000ef40 000000dc     0                         sceGuDispBuffer2
+0000f01c 000000c8     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f01c 000000c8     0                         sceGuSwapBuffers
+0000f0e4 00000118     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f0e4 00000118     0                         sceGuDrawBuffer
+0000f1fc 000000ac     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f1fc 000000ac     0                         sceGuSetAllStatus
+0000f2a8 0000012c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f2a8 0000012c     0                         sceGuSetDither
+0000f3d4 0000009c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f3d4 0000009c     0                         sceGuEndObject
+0000f470 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f470 0000002c     0                         sceGuPatchDivide
+0000f49c 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f49c 00000028     0                         sceGuColorMaterial
+0000f4c4 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f4c4 0000002c     0                         sceGuSpecular
+0000f4f0 00000044     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f4f0 00000044     0                         sceGuTexScale
+0000f534 0000006c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f534 0000006c     0                         _sceGuSetDebugFontCallback
+0000f5a0 00000078     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f5a0 00000078     0                         sceGuTerm
+0000f618 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f618 0000001c     0                         sceGuFinish
+0000f634 00000050     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f634 00000050     0                         sceGuGetMemory
+0000f684 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f684 00000058     0                         sceGuGetAlignedMemory
+0000f6dc 00000018     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f6dc 00000018     0                         sceGuCheckList
+0000f6f4 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f6f4 0000003c     0                         sceGuBeginPacket
+0000f730 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f730 00000010     0                         sceGuEndPacket
+0000f740 00000038     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f740 00000038     0                         sceGuSignal
+0000f778 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f778 0000003c     0                         sceGuSetCallback
+0000f7b4 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f7b4 0000003c     0                         sceGuSetCallback2
+0000f7f0 00000020     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f7f0 00000020     0                         sceGuBreak
+0000f810 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f810 0000001c     0                         sceGuContinue
+0000f82c 0000000c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f82c 0000000c     0                         sceGuCallMode
+0000f838 00000044     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f838 00000044     0                         sceGuJumpList
+0000f87c 00000060     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f87c 00000060     0                         sceGuSignalCall
+0000f8dc 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f8dc 0000002c     0                         sceGuSignalRet
+0000f908 00000038     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f908 00000038     0                         sceGuSignalDrawSync
+0000f940 0000006c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f940 0000006c     0                         sceGuSync
+0000f9ac 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f9ac 0000001c     0                         sceGuFlush
+0000f9c8 00000070     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000f9c8 00000070     0                         sceGuDisplay
+0000fa38 00000074     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fa38 00000074     0                         sceGuDispBuffer
+0000faac 000000b8     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000faac 000000b8     0                         sceGuDrawBuffer2
+0000fb64 00000050     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fb64 00000050     0                         sceGuDrawBufferList
+0000fbb4 00000054     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fbb4 00000054     0                         sceGuDepthBuffer
+0000fc08 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fc08 00000058     0                         sceGuEnable
+0000fc60 0000005c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fc60 0000005c     0                         sceGuDisable
+0000fcbc 0000008c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fcbc 0000008c     0                         sceGuSetStatus
+0000fd48 00000024     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fd48 00000024     0                         sceGuGetStatus
+0000fd6c 0000000c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fd6c 0000000c     0                         sceGuGetAllStatus
+0000fd78 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fd78 0000002c     0                         sceGuSetMatrix
+0000fda4 000000dc     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fda4 000000dc     0                         sceGuBeginObject
+0000fe80 000000d0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000fe80 000000d0     0                         sceGuDrawArray
+0000ff50 000000e8     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0000ff50 000000e8     0                         sceGuDrawArrayN
+00010038 0000011c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010038 0000011c     0                         sceGuDrawBezier
+00010154 0000013c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010154 0000013c     0                         sceGuDrawSpline
+00010290 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010290 0000001c     0                         sceGuSpriteMode
+000102ac 0000005c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000102ac 0000005c     0                         sceGuDrawSprite
+00010308 000000e8     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010308 000000e8     0                         sceGuCopyImage
+000103f0 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000103f0 00000014     0                         sceGuClearColor
+00010404 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010404 00000010     0                         sceGuClearStencil
+00010414 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010414 00000010     0                         sceGuClearDepth
+00010424 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010424 00000028     0                         sceGuClear
+0001044c 000000a4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001044c 000000a4     0                         sceGuViewport
+000104f0 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000104f0 0000002c     0                         sceGuDepthRange
+0001051c 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001051c 00000028     0                         sceGuDepthOffset
+00010544 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010544 0000003c     0                         sceGuOffset
+00010580 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010580 00000028     0                         sceGuPatchPrim
+000105a8 00000040     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000105a8 00000040     0                         sceGuAmbient
+000105e8 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000105e8 0000002c     0                         sceGuMaterial
+00010614 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010614 0000002c     0                         sceGuColor
+00010640 00000040     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010640 00000040     0                         sceGuAmbientColor
+00010680 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010680 0000003c     0                         sceGuModelColor
+000106bc 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000106bc 00000028     0                         sceGuFrontFace
+000106e4 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000106e4 00000028     0                         sceGuShadeModel
+0001070c 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001070c 0000003c     0                         sceGuLight
+00010748 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010748 00000028     0                         sceGuLightMode
+00010770 0000006c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010770 0000006c     0                         sceGuLightAtt
+000107dc 0000009c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000107dc 0000009c     0                         sceGuLightSpot
+00010878 00000034     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010878 00000034     0                         sceGuLightColor
+000108ac 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000108ac 0000003c     0                         sceGuTexMode
+000108e8 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000108e8 0000002c     0                         sceGuTexFilter
+00010914 00000040     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010914 00000040     0                         sceGuTexFunc
+00010954 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010954 00000028     0                         sceGuTexEnvColor
+0001097c 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001097c 0000002c     0                         sceGuTexWrap
+000109a8 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000109a8 00000058     0                         sceGuTexLevelMode
+00010a00 00000050     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010a00 00000050     0                         sceGuTexMapMode
+00010a50 00000038     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010a50 00000038     0                         sceGuTexProjMapMode
+00010a88 00000020     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010a88 00000020     0                         sceGuTexSync
+00010aa8 00000080     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010aa8 00000080     0                         sceGuTexImage
+00010b28 00000044     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010b28 00000044     0                         sceGuTexOffset
+00010b6c 00000020     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010b6c 00000020     0                         sceGuTexFlush
+00010b8c 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010b8c 0000002c     0                         sceGuTexSlope
+00010bb8 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010bb8 0000003c     0                         sceGuClutMode
+00010bf4 0000004c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010bf4 0000004c     0                         sceGuClutLoad
+00010c40 000000c0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010c40 000000c0     0                         sceGuClutCopyLoad
+00010d00 00000084     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010d00 00000084     0                         sceGuFog
+00010d84 00000048     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010d84 00000048     0                         sceGuColorFunc
+00010dcc 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010dcc 0000003c     0                         sceGuAlphaFunc
+00010e08 00000024     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010e08 00000024     0                         sceGuDepthFunc
+00010e2c 00000024     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010e2c 00000024     0                         sceGuDepthMask
+00010e50 00000040     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010e50 00000040     0                         sceGuPixelMask
+00010e90 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010e90 0000003c     0                         sceGuScissor
+00010ecc 00000034     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010ecc 00000034     0                         sceGuStencilFunc
+00010f00 00000028     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010f00 00000028     0                         sceGuLogicalOp
+00010f28 00000034     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010f28 00000034     0                         sceGuStencilOp
+00010f5c 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010f5c 00000058     0                         sceGuBlendFunc
+00010fb4 000000a4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00010fb4 000000a4     0                         sceGuBoneMatrix
+00011058 0000003c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011058 0000003c     0                         sceGuMorphWeight
+00011094 000000bc     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011094 000000bc     0                         sceGupSignal
+00011150 0000020c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011150 0000020c     0                         sceGupSetStatus
+0001135c 00000268     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001135c 00000268     0                         sceGupSetMatrix
+000115c4 0000019c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000115c4 0000019c     0                         sceGupDrawSprite
+00011760 00000354     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011760 00000354     0                         sceGupClear
+00011ab4 000000a8     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011ab4 000000a8     0                         sceGupDepthRange
+00011b5c 000000ac     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011b5c 000000ac     0                         sceGupDepthOffset
+00011c08 00000070     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011c08 00000070     0                         sceGupPatchPrim
+00011c78 00000064     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011c78 00000064     0                         sceGupModelColor
+00011cdc 00000090     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011cdc 00000090     0                         sceGupMaterial
+00011d6c 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011d6c 0000002c     0                         sceGupFrontFace
+00011d98 00000094     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011d98 00000094     0                         sceGupLight
+00011e2c 00000104     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011e2c 00000104     0                         sceGupLightColor
+00011f30 00000044     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011f30 00000044     0                         sceGupTexMode
+00011f74 00000080     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011f74 00000080     0                         sceGupScissor
+00011ff4 0000002c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00011ff4 0000002c     0                         sceGupShadeModel
+00012020 00000080     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00012020 00000080     0                         _sceGuCallbackSignal
+000120a0 00000034     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000120a0 00000034     0                         _sceGuCallbackFinish
+000120d4 0000010c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000120d4 0000010c     0                         _sceGuResetGlobalVariables
+000121e0 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000121e0 00000058     0                         _sceGuUpdateStallAddr
+00012238 000001e8     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00012238 000001e8     0                         sceGuDebugPrint
+00012420 00000274     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00012420 00000274     0                         sceGuDebugFlush
+00012694 0000005c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00012694 0000005c     0                         _sceGuDebugFontInit
+000126f0 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+000126f0 00000014     0                         _sceGuDebugSwapBuffer
+00012704 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00012704 0000001c     0                         _sceGuDebugDispBuffer
+00012720 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00012720 00000014     0                         _sceGuDebugDrawBuffer
+00012734 000001fc     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00012734 000001fc     0                         sceGumSetMatrixStack
+00012930 0000005c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00012930 0000005c     0                         sceGumLoadIdentity
+0001298c 0000042c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+0001298c 0000042c     0                         sceGumRotateXYZ
+00012db8 0000041c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00012db8 0000041c     0                         sceGumRotateZYX
+000131d4 0000035c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000131d4 0000035c     0                         sceGumPerspective
+00013530 000003a0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00013530 000003a0     0                         sceGumOrtho
+000138d0 000006b0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000138d0 000006b0     0                         sceGumLookAt
+00013f80 000003f4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00013f80 000003f4     0                         sceGumMultQuaternion
+00014374 000007e0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014374 000007e0     0                         sceGumProject
+00014b54 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014b54 00000058     0                         sceGumSetCurMatrix
+00014bac 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014bac 0000001c     0                         sceGumUpdateMatrix
+00014bc8 00000080     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014bc8 00000080     0                         sceGumStoreContext
+00014c48 00000080     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014c48 00000080     0                         sceGumLoadContext
+00014cc8 00000330     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014cc8 00000330     0                         sceGumRotateX
+00014ff8 00000348     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00014ff8 00000348     0                         sceGumRotateY
+00015340 00000320     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015340 00000320     0                         sceGumRotateZ
+00015660 00000100     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015660 00000100     0                         sceGumTranslate
+00015760 000000bc     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015760 000000bc     0                         sceGumScale
+0001581c 00000354     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+0001581c 00000354     0                         sceGumMultMatrix
+00015b70 00000384     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015b70 00000384     0                         sceGumFrustum
+00015ef4 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015ef4 00000058     0                         sceGumMatrixMode
+00015f4c 0000007c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015f4c 0000007c     0                         sceGumPushMatrix
+00015fc8 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00015fc8 00000058     0                         sceGumPopMatrix
+00016020 00000060     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00016020 00000060     0                         sceGumLoadMatrix
+00016080 00000044     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00016080 00000044     0                         sceGumStoreMatrix
+000160c4 0000006c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000160c4 0000006c     0                         sceGumDrawArray
+00016130 0000007c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00016130 0000007c     0                         sceGumDrawArrayN
+000161ac 0000006c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000161ac 0000006c     0                         sceGumDrawBezier
+00016218 0000008c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00016218 0000008c     0                         sceGumDrawSpline
+000162a4 000000c4     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000162a4 000000c4     0                         _sceGumCheckUpdate
+00016368 000001ac     4         .gnu.linkonce.t.*
+00016368 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_new.obj)
+00016368 00000018     0                         std::bad_alloc::what(void) const
+00016380 000000dc     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_new.obj)
+00016380 000000dc     0                         std::bad_alloc::~bad_alloc(void)
+0001645c 000000b8     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(newhandler.obj)
+0001645c 000000b8     0                         std::bad_alloc::bad_alloc(void)
+00016514 00000000     1         .gnu.warning
+00016514 00000000     1         .mips16.fn.*
+00016514 00000000     1         .mips16.call.*
+00016514 00000000     1         <default>
+00016514 00000050     4 .sceStub.text.sceGe_user
+00016514 00000050     4         <default>
+00016514 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_1.o)
+00016514 00000000     0                         sceGeListSync
+0001651c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_2.o)
+0001651c 00000000     0                         sceGeUnsetCallback
+00016524 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_4.o)
+00016524 00000000     0                         sceGeListEnQueueHead
+0001652c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_7.o)
+0001652c 00000000     0                         sceGeContinue
+00016534 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_10.o)
+00016534 00000000     0                         sceGeSetCallback
+0001653c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_11.o)
+0001653c 00000000     0                         sceGeListEnQueue
+00016544 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_12.o)
+00016544 00000000     0                         sceGeDrawSync
+0001654c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_13.o)
+0001654c 00000000     0                         sceGeBreak
+00016554 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_16.o)
+00016554 00000000     0                         sceGeListUpdateStallAddr
+0001655c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_17.o)
+0001655c 00000000     0                         sceGeEdramGetAddr
+00016564 00000018     4 .sceStub.text.sceDisplay
+00016564 00000018     4         <default>
+00016564 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_1.o)
+00016564 00000000     0                         sceDisplaySetMode
+0001656c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_3.o)
+0001656c 00000000     0                         sceDisplaySetFrameBuf
+00016574 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_12.o)
+00016574 00000000     0                         sceDisplayWaitVblankStart
+0001657c 00000018     4 .sceStub.text.UtilsForUser
+0001657c 00000018     4         <default>
+0001657c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_13.o)
+0001657c 00000000     0                         sceKernelLibcGettimeofday
+00016584 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_19.o)
+00016584 00000000     0                         sceKernelLibcClock
+0001658c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_3.o)
+0001658c 00000000     0                         sceKernelLibcTime
+00016594 00000048     4 .sceStub.text.ThreadManForUser
+00016594 00000048     4         <default>
+00016594 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_12.o)
+00016594 00000000     0                         sceKernelSetEventFlag
+0001659c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_128.o)
+0001659c 00000000     0                         sceKernelDeleteEventFlag
+000165a4 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_131.o)
+000165a4 00000000     0                         sceKernelStartThread
+000165ac 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_26.o)
+000165ac 00000000     0                         sceKernelGetSystemTimeLow
+000165b4 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_33.o)
+000165b4 00000000     0                         sceKernelWaitEventFlag
+000165bc 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_34.o)
+000165bc 00000000     0                         sceKernelCreateThread
+000165c4 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_40.o)
+000165c4 00000000     0                         sceKernelCreateEventFlag
+000165cc 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_65.o)
+000165cc 00000000     0                         sceKernelClearEventFlag
+000165d4 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_89.o)
+000165d4 00000000     0                         sceKernelExitThread
+000165dc 00000030     4 .sceStub.text.SysMemUserForUser
+000165dc 00000030     4         <default>
+000165dc 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_1.o)
+000165dc 00000000     0                         sceKernelPrintf
+000165e4 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_10.o)
+000165e4 00000000     0                         sceKernelSetCompilerVersion
+000165ec 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_2.o)
+000165ec 00000000     0                         sceKernelAllocPartitionMemory
+000165f4 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_3.o)
+000165f4 00000000     0                         sceKernelSetCompiledSdkVersion
+000165fc 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_6.o)
+000165fc 00000000     0                         sceKernelGetBlockHeadAddr
+00016604 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_8.o)
+00016604 00000000     0                         sceKernelFreePartitionMemory
+0001660c 00000018     4 .sceStub.text.StdioForUser
+0001660c 00000018     4         <default>
+0001660c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_1.o)
+0001660c 00000000     0                         sceKernelStdin
+00016614 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_4.o)
+00016614 00000000     0                         sceKernelStdout
+0001661c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_5.o)
+0001661c 00000000     0                         sceKernelStderr
+00016624 00000028     4 .sceStub.text.ModuleMgrForUser
+00016624 00000028     4         <default>
+00016624 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_1.o)
+00016624 00000000     0                         sceKernelUnloadModule
+0001662c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_10.o)
+0001662c 00000000     0                         sceKernelStopModule
+00016634 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_12.o)
+00016634 00000000     0                         sceKernelGetModuleIdByAddress
+0001663c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_14.o)
+0001663c 00000000     0                         sceKernelGetModuleId
+00016644 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_5.o)
+00016644 00000000     0                         sceKernelStopUnloadSelfModuleWithStatus
+0001664c 00000018     4 .sceStub.text.Kernel_Library
+0001664c 00000018     4         <default>
+0001664c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_1.o)
+0001664c 00000000     0                         sceKernelCpuSuspendIntr
+00016654 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_5.o)
+00016654 00000000     0                         sceKernelGetThreadId
+0001665c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_9.o)
+0001665c 00000000     0                         sceKernelCpuResumeIntr
+00016664 00000030     4 .sceStub.text.IoFileMgrForUser
+00016664 00000030     4         <default>
+00016664 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_10.o)
+00016664 00000000     0                         sceIoWrite
+0001666c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_16.o)
+0001666c 00000000     0                         sceIoRead
+00016674 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_18.o)
+00016674 00000000     0                         sceIoRename
+0001667c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_19.o)
+0001667c 00000000     0                         sceIoClose
+00016684 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_4.o)
+00016684 00000000     0                         sceIoOpen
+0001668c 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_7.o)
+0001668c 00000000     0                         sceIoLseek
+00016694 00000000     1 .fini
+00016694 00000000     1         .fini
+00016694 00000000     1         <default>
+00016694 00000000     1 .sceStub.text
+00016694 00000000     1         sceStub.text.*
+00016694 00000000     1         <default>
+00016694 00000000     1 .rodata.sceVstub
+00016694 00000000     1         .rodata.sceVstub.*
+00016694 00000000     1         <default>
+00016694 00000008     8 .cplinit
+00016694 00000000     1         __cplinit
+00016694 00000000     1                 COMMON
+00016694 00000000     0                         __cplinit
+0001669c 00000000     1         <default>
+00000000 00001a40     4 .pdr
+00000000 00001a40     4         <default>
+00000000 00000060     4                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+00000060 00000340     4                 C:\cygwin\usr\local\psp\devkit\lib\kernel_bridge.o
+000003a0 00000fa0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00001340 000000c0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00001400 000003c0     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000017c0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_sf_to_df.o)
+000017e0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_div_df.o)
+00001800 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_df.o)
+00001820 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_sf.o)
+00001840 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_thenan_df.o)
+00001840 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_sf.o)
+00001860 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_sf.o)
+00001880 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_df.o)
+000018a0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_df.o)
+000018c0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_sf.o)
+000018e0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_udivdi3.o)
+00001900 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_umoddi3.o)
+00001920 00000060     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_addsub_df.o)
+00001980 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_mul_df.o)
+000019a0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_compare_df.o)
+000019c0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_si_to_df.o)
+000019e0 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_si.o)
+00001a00 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_negate_df.o)
+00001a20 00000000     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_clz.o)
+00001a20 00000020     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_fpcmp_parts_df.o)
+0001669c 00000000     1 .mdebug.eabi32
+0001669c 00000000     1         <default>
+0001669c 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+0001669c 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\kernel_bridge.o
+0001669c 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001669c 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+0001669c 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_sf_to_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_div_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_sf.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_thenan_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_sf.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_sf.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_sf.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_udivdi3.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_umoddi3.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_addsub_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_mul_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_compare_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_si_to_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_si.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_negate_df.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_clz.o)
+0001669c 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_fpcmp_parts_df.o)
+0001669c 00000034     4 .rodata.sceModuleInfo
+0001669c 00000034     4         .rodata.sceModuleInfo
+0001669c 00000034     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+0001669c 00000034     0                         __psp_moduleinfo
+000166d0 00000000     1         <default>
+000166d0 00000084     4 .linkonce.d
+000166d0 00000084     4         <default>
+000166d0 0000002c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_new.obj)
+000166d0 00000018     0                         std::bad_alloc virtual table
+000166e8 00000014     0                         std::bad_alloc type_info function
+000166fc 0000002c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(new.obj)
+000166fc 00000018     0                         std::bad_alloc virtual table
+00016714 00000014     0                         std::bad_alloc type_info function
+00016728 0000002c     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(newhandler.obj)
+00016728 00000018     0                         std::bad_alloc virtual table
+00016740 00000014     0                         std::bad_alloc type_info function
+00016754 00000018     4 .psp_lib_markimport_
+00016754 00000018     4         <default>
+00016754 00000008     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+0001675c 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+0001676c 00000060     4 .psp_lib_mark_
+0001676c 00000060     4         <default>
+0001676c 00000020     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+0001676c 00000008     0                         __PSPEXP__module_info
+00016774 00000008     0                         __PSPREN__module_info___psp_moduleinfo
+0001677c 00000008     0                         __PSPEXP__module_sdk_version
+00016784 00000008     0                         __PSPREN__module_sdk_version___psp_module_sdk_version
+0001678c 00000040     4                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+0001678c 00000008     0                         __PSPEXP__module_start
+00016794 00000008     0                         __PSPREN__module_start__start
+0001679c 00000008     0                         __PSPEXP__module_stop
+000167a4 00000008     0                         __PSPREN__module_stop__stop
+000167ac 00000008     0                         __PSPEXP__module_start_thread_parameter
+000167b4 00000008     0                         __PSPREN__module_start_thread_parameter__sce_module_startthpara
+000167bc 00000008     0                         __PSPEXP__module_stop_thread_parameter
+000167c4 00000008     0                         __PSPREN__module_stop_thread_parameter__sce_module_stopthpara
+000167cc 000000bc     4 .rodata.sceResident
+000167cc 000000bc     4         .rodata.sceResident
+000167cc 00000018     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_head.o)
+000167cc 00000000     0                         _sce_package_version_IoFileMgrForUser
+000167d0 00000000     0                         _IoFileMgrForUser_stub_str
+000167e4 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_head.o)
+000167e4 00000000     0                         _sce_package_version_Kernel_Library
+000167e8 00000000     0                         _Kernel_Library_stub_str
+000167f8 00000018     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_head.o)
+000167f8 00000000     0                         _sce_package_version_ModuleMgrForUser
+000167fc 00000000     0                         _ModuleMgrForUser_stub_str
+00016810 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_head.o)
+00016810 00000000     0                         _sce_package_version_StdioForUser
+00016814 00000000     0                         _StdioForUser_stub_str
+00016824 00000018     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_head.o)
+00016824 00000000     0                         _sce_package_version_SysMemUserForUser
+00016828 00000000     0                         _SysMemUserForUser_stub_str
+0001683c 00000018     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_head.o)
+0001683c 00000000     0                         _sce_package_version_ThreadManForUser
+00016840 00000000     0                         _ThreadManForUser_stub_str
+00016854 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_head.o)
+00016854 00000000     0                         _sce_package_version_UtilsForUser
+00016858 00000000     0                         _UtilsForUser_stub_str
+00016868 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_head.o)
+00016868 00000000     0                         _sce_package_version_sceDisplay
+0001686c 00000000     0                         _sceDisplay_stub_str
+00016878 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_head.o)
+00016878 00000000     0                         _sce_package_version_sceGe_user
+0001687c 00000000     0                         _sceGe_user_stub_str
+00016888 00000000     1         <default>
+00016888 000000c0     4 .rodata.sceNid
+00016888 000000c0     4         .rodata.sceNid
+00016888 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_10.o)
+0001688c 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_16.o)
+00016890 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_18.o)
+00016894 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_19.o)
+00016898 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_4.o)
+0001689c 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_7.o)
+000168a0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_1.o)
+000168a4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_5.o)
+000168a8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_9.o)
+000168ac 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_1.o)
+000168b0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_10.o)
+000168b4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_12.o)
+000168b8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_14.o)
+000168bc 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_5.o)
+000168c0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_1.o)
+000168c4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_4.o)
+000168c8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_5.o)
+000168cc 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_1.o)
+000168d0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_10.o)
+000168d4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_2.o)
+000168d8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_3.o)
+000168dc 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_6.o)
+000168e0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_8.o)
+000168e4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_12.o)
+000168e8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_128.o)
+000168ec 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_131.o)
+000168f0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_26.o)
+000168f4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_33.o)
+000168f8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_34.o)
+000168fc 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_40.o)
+00016900 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_65.o)
+00016904 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_89.o)
+00016908 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_13.o)
+0001690c 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_19.o)
+00016910 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_3.o)
+00016914 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_1.o)
+00016918 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_3.o)
+0001691c 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_12.o)
+00016920 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_1.o)
+00016924 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_2.o)
+00016928 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_4.o)
+0001692c 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_7.o)
+00016930 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_10.o)
+00016934 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_11.o)
+00016938 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_12.o)
+0001693c 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_13.o)
+00016940 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_16.o)
+00016944 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_17.o)
+00016948 00000000     1         <default>
+00016950 000018a0    10 .rodata
+00016950 000010f8     8         .rodata
+00016950 00000000     8                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\CubeData.obj
+00016950 00000000     0                         RDATA.
+00016950 000001b0     8                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\FrontEnd.obj
+00016950 00000000     0                         RDATA.
+00016950 000001b0     0                         Cube
+00016b00 00000008     8                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+00016b00 00000000     0                         RDATA.
+00016b00 00000004     0                         __psp_module_sdk_version
+00016b08 00000048     4                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+00016b20 00000010     0                         _sce_module_startthpara
+00016b08 00000018     0                         __psp_libinfo__
+00016b30 00000010     0                         _sce_module_stopthpara
+00016b50 00000068     4                 C:\cygwin\usr\local\psp\devkit\lib\kernel_bridge.o
+00016ba8 00000004     0                         sce_newlib_stop_func
+00016bb8 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(getreent.obj)
+00016bb8 00000000     0                         RDATA.
+00016bb8 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(impure.obj)
+00016bb8 00000000     0                         RDATA.
+00016bb8 00000002     0                         $LNst.0
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(reent.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(atexit.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(exit.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(malloc.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memset.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strlen.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mallocr.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(freer.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mlock1.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(sbrkr.obj)
+00016bc0 00000000     0                         RDATA.
+00016bc0 00000024     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00016bc0 00000018     0                         __psp_libinfo__
+00016be4 00000018     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00016be4 00000018     0                         __psp_libinfo__
+00016c00 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_del.obj)
+00016c00 00000000     0                         RDATA.
+00016c00 00000028     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_new.obj)
+00016c00 00000000     0                         RDATA.
+00016c00 00000008     0                         LV.0
+00016c08 0000000f     0                         $LNst.0
+00016c18 0000000a     0                         $LNst.1
+00016c28 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(delete.obj)
+00016c28 00000000     0                         RDATA.
+00016c28 00000030     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00016c28 00000000     0                         RDATA.
+00016c28 00000008     0                         LV.0
+00016c30 0000000f     0                         $LNst.0
+00016c40 00000013     0                         $LNst.1
+00016c54 00000001     0                         $LNst.2
+00016c58 00000028     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(new.obj)
+00016c58 00000000     0                         RDATA.
+00016c58 00000008     0                         LV.0
+00016c60 0000000f     0                         $LNst.0
+00016c70 0000000a     0                         $LNst.1
+00016c6f 00000001     0                         std::nothrow
+00016c80 00000028     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(newhandler.obj)
+00016c80 00000000     0                         RDATA.
+00016c80 00000008     0                         LV.0
+00016c88 0000000f     0                         $LNst.0
+00016c98 0000000a     0                         $LNst.1
+00016ca8 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(static_init.obj)
+00016ca8 00000000     0                         RDATA.
+00016ca8 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(throw.obj)
+00016ca8 00000000     0                         RDATA.
+00016ca8 00000048     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00016ca8 00000000     0                         RDATA.
+00016ca8 00000008     0                         LV.0
+00016cb0 00000008     0                         LV.1
+00016cb8 0000000f     0                         $LNst.0
+00016cc8 0000000e     0                         $LNst.1
+00016cd8 00000010     0                         $LNst.2
+00016ce8 00000001     0                         $LNst.3
+00016cf0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(vars.obj)
+00016cf0 00000000     0                         RDATA.
+00016cf0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(vec_newdel.obj)
+00016cf0 00000000     0                         RDATA.
+00016cf0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(dtor_list.obj)
+00016cf0 00000000     0                         RDATA.
+00016cf0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(eh_util.obj)
+00016cf0 00000000     0                         RDATA.
+00016cf0 000001a8     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(error.obj)
+00016cf0 00000000     0                         RDATA.
+00016cf0 00000013     0                         $LNst.0
+00016d04 00000037     0                         $LNst.1
+00016d3c 00000031     0                         $LNst.2
+00016d70 00000044     0                         $LNst.3
+00016db4 0000001d     0                         $LNst.4
+00016dd4 00000023     0                         $LNst.5
+00016df8 00000015     0                         $LNst.6
+00016e10 00000019     0                         $LNst.7
+00016e2c 00000036     0                         $LNst.8
+00016e64 00000008     0                         $LNst.9
+00016e70 00000024     0                         $LSW_1
+00016e98 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(rtti.obj)
+00016e98 00000000     0                         RDATA.
+00016e98 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_cos.obj)
+00016e98 00000000     0                         RDATA.
+00016e98 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_sin.obj)
+00016e98 00000000     0                         RDATA.
+00016e98 00000010     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(wf_sqrt.obj)
+00016e98 00000000     0                         RDATA.
+00016e98 00000006     0                         $LNst.0
+00016ea0 00000008     0                         $Lcnst0
+00016ea8 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(s_lib_ver.obj)
+00016ea8 00000000     0                         RDATA.
+00016ea8 00000004     0                         __fdlib_version
+00016eb0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(s_matherr.obj)
+00016eb0 00000000     0                         RDATA.
+00016eb0 000003c0     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(ef_rem_pio2.obj)
+00016eb0 00000000     0                         RDATA.
+00016eb0 00000318     0                         two_over_pi
+000171c8 00000080     0                         npio2_hw
+00017248 00000004     0                         zero
+0001724c 00000004     0                         half
+00017250 00000004     0                         two8
+00017254 00000004     0                         invpio2
+00017258 00000004     0                         pio2_1
+0001725c 00000004     0                         pio2_1t
+00017260 00000004     0                         pio2_2
+00017264 00000004     0                         pio2_2t
+00017268 00000004     0                         pio2_3
+0001726c 00000004     0                         pio2_3t
+00017270 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(ef_sqrt.obj)
+00017270 00000000     0                         RDATA.
+00017270 00000004     0                         one
+00017274 00000004     0                         tiny
+00017278 00000020     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_cos.obj)
+00017278 00000000     0                         RDATA.
+00017278 00000004     0                         one
+0001727c 00000004     0                         C1
+00017280 00000004     0                         C2
+00017284 00000004     0                         C3
+00017288 00000004     0                         C4
+0001728c 00000004     0                         C5
+00017290 00000004     0                         C6
+00017298 00000048     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_rem_pio2.obj)
+00017298 00000000     0                         RDATA.
+00017298 0000000c     0                         init_jk
+000172a4 0000002c     0                         PIo2
+000172d0 00000004     0                         zero
+000172d4 00000004     0                         one
+000172d8 00000004     0                         two8
+000172dc 00000004     0                         twon8
+000172e0 00000020     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_sin.obj)
+000172e0 00000000     0                         RDATA.
+000172e0 00000004     0                         half
+000172e4 00000004     0                         S1
+000172e8 00000004     0                         S2
+000172ec 00000004     0                         S3
+000172f0 00000004     0                         S4
+000172f4 00000004     0                         S5
+000172f8 00000004     0                         S6
+00017300 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_fabs.obj)
+00017300 00000000     0                         RDATA.
+00017300 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_floor.obj)
+00017300 00000000     0                         RDATA.
+00017300 00000004     0                         huge
+00017308 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_isnan.obj)
+00017308 00000000     0                         RDATA.
+00017308 00000010     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_scalbn.obj)
+00017308 00000000     0                         RDATA.
+00017308 00000004     0                         two25
+0001730c 00000004     0                         twom25
+00017310 00000004     0                         huge
+00017314 00000004     0                         tiny
+00017318 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_copysign.obj)
+00017318 00000000     0                         RDATA.
+00017318 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsn.a(init.obj)
+00017318 00000000     0                         RDATA.
+00017318 00000018     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_thenan_df.o)
+00017318 00000018     0                         __thenan_df
+00017330 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(errno.obj)
+00017330 00000000     0                         RDATA.
+00017330 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(fprintf.obj)
+00017330 00000000     0                         RDATA.
+00017330 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(abort.obj)
+00017330 00000000     0                         RDATA.
+00017330 000002d0     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfprintf.obj)
+00017330 00000000     0                         RDATA.
+00017330 00000005     0                         $LNst.0
+00017338 00000004     0                         $LNst.1
+0001733c 00000004     0                         $LNst.2
+00017340 00000008     0                         $Lcnst0
+00017348 00000008     0                         $Lcnst1
+00017350 00000008     0                         $Lcnst2
+00017358 00000008     0                         $Lcnst3
+00017360 00000008     0                         $Lcnst4
+00017368 00000010     0                         LS.9.blanks
+00017378 00000010     0                         LS.9.zeroes
+00017388 00000011     0                         $LNst.3
+0001739c 00000007     0                         $LNst.4
+000173a4 00000011     0                         $LNst.5
+000173b8 0000001a     0                         $LNst.6
+000173d8 00000008     0                         $Lcnst5
+000173e0 00000008     0                         $Lcnst6
+000173e8 00000008     0                         $Lcnst7
+000173f0 00000008     0                         $Lcnst8
+000173f8 00000008     0                         $Lcnst9
+00017400 00000008     0                         $Lcnst10
+00017408 0000008c     0                         $LSW_1
+00017498 00000164     0                         $LSW_2
+00017600 00000200     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfiprintf.obj)
+00017600 00000000     0                         RDATA.
+00017600 00000010     0                         LS.2.blanks
+00017610 00000010     0                         LS.2.zeroes
+00017620 00000011     0                         $LNst.0
+00017634 00000007     0                         $LNst.1
+0001763c 00000011     0                         $LNst.2
+00017650 0000001a     0                         $LNst.3
+00017670 00000008     0                         $Lcnst0
+00017678 00000008     0                         $Lcnst1
+00017680 00000008     0                         $Lcnst2
+00017688 00000008     0                         $Lcnst3
+00017690 00000008     0                         $Lcnst4
+00017698 00000164     0                         $LSW_1
+00017800 00000058     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(locale.obj)
+00017800 00000000     0                         RDATA.
+00017800 00000002     0                         $LNst.0
+00017804 00000001     0                         $LNst.1
+00017808 00000030     0                         lconv
+0001783c 00000002     0                         $LNst.2
+00017840 00000006     0                         $LNst.3
+00017848 00000008     0                         $LNst.4
+00017850 00000007     0                         $LNst.5
+00017858 000000b8     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(math_support.obj)
+00017858 00000000     0                         RDATA.
+00017858 00000008     0                         huge
+00017860 00000008     0                         one
+00017868 00000010     0                         Zero
+00017878 00000008     0                         ln2_hi
+00017880 00000008     0                         ln2_lo
+00017888 00000008     0                         two54
+00017890 00000008     0                         Lg1
+00017898 00000008     0                         Lg2
+000178a0 00000008     0                         Lg3
+000178a8 00000008     0                         Lg4
+000178b0 00000008     0                         Lg5
+000178b8 00000008     0                         Lg6
+000178c0 00000008     0                         Lg7
+000178c8 00000008     0                         zero
+000178d0 00000008     0                         ivln10
+000178d8 00000008     0                         log10_2hi
+000178e0 00000008     0                         log10_2lo
+000178f0 00000008     0                         $Lcnst0
+000178f8 00000008     0                         $Lcnst1
+00017900 00000008     0                         $Lcnst2
+00017908 00000008     0                         $Lcnst3
+000178e8 00000008     0                         sn___infinity
+00017910 00000038     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mbtowc_r.obj)
+00017910 00000000     0                         RDATA.
+00017910 00000007     0                         $LNst.0
+00017918 00000008     0                         $LNst.1
+00017920 00000006     0                         $LNst.2
+00017928 0000001c     0                         $LSW_1
+00017948 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memchr.obj)
+00017948 00000000     0                         RDATA.
+00017948 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memcpy.obj)
+00017948 00000000     0                         RDATA.
+00017948 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strcmp.obj)
+00017948 00000000     0                         RDATA.
+00017948 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strcpy.obj)
+00017948 00000000     0                         RDATA.
+00017948 00000100     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_clz.o)
+00017948 00000100     0                         __clz_tab
+00017a50 000007a0    10         .rodata.*
+00017a50 00000350     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017a50 00000350     0                         initList
+00017da0 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017da0 00000010     0                         g_ListOptImmediate
+00017db0 00000040    10                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017db0 00000040     0                         dither.0
+00017df0 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017e0c 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017e20 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017e34 00000058     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017e8c 0000001c     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00017ea8 00000300     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00017ea8 00000300     0                         fonttex
+000181a8 00000040     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000181e8 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_si_to_df.o)
+000181e8 00000000     0                         $LC0
+000181f0 00000000     1         .gnu.linkonce.r.*
+000181f0 00000000     1         <default>
+000181f0 000000b4     4 .lib.stub
+000181f0 000000b4     4         <default>
+000181f0 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_head.o)
+000181f0 00000000     0                         _IoFileMgrForUser_0011_stub_head
+00018204 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_head.o)
+00018204 00000000     0                         _Kernel_Library_0011_stub_head
+00018218 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_head.o)
+00018218 00000000     0                         _ModuleMgrForUser_0011_stub_head
+0001822c 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_head.o)
+0001822c 00000000     0                         _StdioForUser_0011_stub_head
+00018240 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_head.o)
+00018240 00000000     0                         _SysMemUserForUser_0011_stub_head
+00018254 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_head.o)
+00018254 00000000     0                         _ThreadManForUser_0011_stub_head
+00018268 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_head.o)
+00018268 00000000     0                         _UtilsForUser_0011_stub_head
+0001827c 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_head.o)
+0001827c 00000000     0                         _sceDisplay_0011_stub_head
+00018290 00000014     4                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_head.o)
+00018290 00000000     0                         _sceGe_user_0011_stub_head
+000182a4 00000000     1 .rodata1
+000182a4 00000000     1         .rodata1
+000182a4 00000000     1         <default>
+000182a4 00000000     1 .sdata2
+000182a4 00000000     1         .sdata2
+000182a4 00000000     1         .sdata2.*
+000182a4 00000000     1         .gnu.linkonce.s2.*
+000182a4 00000000     1         <default>
+000182a4 00000000     1 .sbss2
+000182a4 00000000     1         .sbss2
+000182a4 00000000     1         .sbss2.*
+000182a4 00000000     1         .gnu.linkonce.sb2.*
+000182a4 00000000     1         <default>
+000182a4 00000000     1 .eh_frame_hdr
+000182a4 00000000     1         .eh_frame_hdr
+000182a4 00000000     1         <default>
+000182a8 00000cd7     8 .data
+000182a8 00000bf8     8         .data
+000182a8 00000000     8                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\CubeData.obj
+000182a8 00000000     0                         DATA.
+000182a8 00000000     8                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\FrontEnd.obj
+000182a8 00000000     0                         DATA.
+000182a8 00000000     8                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+000182a8 00000000     0                         DATA.
+000182a8 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+000182a8 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\kernel_bridge.o
+000182a8 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(getreent.obj)
+000182a8 00000000     0                         DATA.
+000182a8 000002f0     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(impure.obj)
+000182a8 00000000     0                         DATA.
+000182a8 000002ec     0                         impure_data
+00018594 00000004     0                         _impure_ptr
+00018598 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(reent.obj)
+00018598 00000000     0                         DATA.
+00018598 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(atexit.obj)
+00018598 00000000     0                         DATA.
+00018598 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(exit.obj)
+00018598 00000000     0                         DATA.
+00018598 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(malloc.obj)
+00018598 00000000     0                         DATA.
+00018598 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memset.obj)
+00018598 00000000     0                         DATA.
+00018598 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strlen.obj)
+00018598 00000000     0                         DATA.
+00018598 00000448     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mallocr.obj)
+00018598 00000000     0                         DATA.
+00018598 00000408     0                         __malloc_av_
+000189a0 00000004     0                         __malloc_trim_threshold
+000189a4 00000004     0                         __malloc_top_pad
+000189a8 00000004     0                         __malloc_sbrk_base
+000189ac 00000004     0                         __malloc_max_sbrked_mem
+000189b0 00000004     0                         __malloc_max_total_mem
+000189b4 00000028     0                         __malloc_current_mallinfo
+000189e0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(freer.obj)
+000189e0 00000000     0                         DATA.
+000189e0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mlock1.obj)
+000189e0 00000000     0                         DATA.
+000189e0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(sbrkr.obj)
+000189e0 00000000     0                         DATA.
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_10.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_16.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_18.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_19.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_4.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_7.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_1.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_5.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_9.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_1.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_10.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_12.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_14.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_5.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_1.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_4.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_5.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_1.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_10.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_2.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_3.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_6.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_8.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_12.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_128.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_131.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_26.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_33.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_34.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_40.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_65.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_89.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_13.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_19.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_3.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_1.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_3.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_12.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_head.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_1.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_2.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_4.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_7.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_10.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_11.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_12.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_13.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_16.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_17.o)
+000189e0 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_head.o)
+000189e0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_del.obj)
+000189e0 00000000     0                         DATA.
+000189e0 00000018     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_new.obj)
+000189e0 00000000     0                         DATA.
+000189e0 00000008     0                         LS.0.LV.3
+000189e8 0000000c     0                         LS.2.LV.8
+000189f8 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(delete.obj)
+000189f8 00000000     0                         DATA.
+000189f8 00000028     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+000189f8 00000000     0                         DATA.
+000189f8 0000000c     0                         LS.5.LV.9
+00018a04 0000000c     0                         LS.6.LV.13
+00018a10 0000000c     0                         LS.7.LV.17
+00018a20 00000020     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(new.obj)
+00018a20 00000000     0                         DATA.
+00018a20 00000008     0                         LS.0.LV.3
+00018a28 00000008     0                         LS.3.LV.8
+00018a30 0000000c     0                         LS.6.LV.14
+00018a40 00000018     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(newhandler.obj)
+00018a40 00000000     0                         DATA.
+00018a40 0000000c     0                         LS.0.LV.4
+00018a4c 0000000c     0                         LS.3.LV.10
+00018a58 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(static_init.obj)
+00018a58 00000000     0                         DATA.
+00018a58 00000010     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(throw.obj)
+00018a58 00000000     0                         DATA.
+00018a58 00000004     0                         curr_throw_stack_entry
+00018a5c 00000004     0                         curr_mem_block_descr
+00018a60 00000004     0                         mem_allocation_stack
+00018a68 00000048     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018a68 00000000     0                         DATA.
+00018a68 0000000c     0                         LS.5.LV.5
+00018a74 0000000c     0                         LS.6.LV.9
+00018a80 0000000c     0                         LS.8.LV.14
+00018a8c 0000000c     0                         LS.10.LV.19
+00018a98 0000000c     0                         LS.11.LV.23
+00018aa4 0000000c     0                         LS.13.LV.28
+00018ab0 00000018     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(vars.obj)
+00018ab0 00000000     0                         DATA.
+00018ab0 00000004     0                         _new_handler
+00018ab4 00000004     0                         __head
+00018ab8 00000002     0                         __eh_curr_region
+00018abc 00000004     0                         __curr_eh_stack_entry
+00018ac0 00000004     0                         __default_terminate_routine
+00018ac4 00000004     0                         __default_unexpected_routine
+00018ac8 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(vec_newdel.obj)
+00018ac8 00000000     0                         DATA.
+00018ac8 00000004     0                         __array_new_prefix_size
+00018ad0 00000010     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(dtor_list.obj)
+00018ad0 00000000     0                         DATA.
+00018ad0 0000000c     0                         __link
+00018adc 00000004     0                         __dummy_variable_used_to_force_definition_of__link
+00018ae0 00000010     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(eh_util.obj)
+00018ae0 00000000     0                         DATA.
+00018ae0 00000004     0                         terminate_called
+00018ae4 00000008     0                         LS.1.LV.2
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(error.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(rtti.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_cos.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_sin.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(wf_sqrt.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(s_lib_ver.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(s_matherr.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(ef_rem_pio2.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(ef_sqrt.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_cos.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_rem_pio2.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(kf_sin.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_fabs.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_floor.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_isnan.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_scalbn.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libm.a(sf_copysign.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsn.a(init.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_sf_to_df.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_div_df.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_df.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_sf.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_thenan_df.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_sf.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_sf.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_df.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_df.o)
+00018af0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_sf.o)
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(errno.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(fprintf.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(abort.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000030     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfprintf.obj)
+00018af0 00000000     0                         DATA.
+00018af0 00000025     0                         LS.2.lower
+00018b18 00000004     0                         LS.7.cumulative_written
+00018b1c 00000004     0                         LS.7.pch_pointer
+00018b20 00000008     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfiprintf.obj)
+00018b20 00000000     0                         DATA.
+00018b20 00000004     0                         LS.0.cumulative_written
+00018b24 00000004     0                         LS.0.pch_pointer
+00018b28 00000018     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(locale.obj)
+00018b28 00000000     0                         DATA.
+00018b2c 00000008     0                         LS.0.lc_ctype
+00018b34 00000008     0                         LS.0.last_lc_ctype
+00018b28 00000004     0                         __mb_cur_max
+00018b40 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(math_support.obj)
+00018b40 00000000     0                         DATA.
+00018b40 00000360     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mbtowc_r.obj)
+00018b40 00000000     0                         DATA.
+00018b40 000001b0     0                         JIS_state_table
+00018cf0 000001b0     0                         JIS_action_table
+00018ea0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memchr.obj)
+00018ea0 00000000     0                         DATA.
+00018ea0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(memcpy.obj)
+00018ea0 00000000     0                         DATA.
+00018ea0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strcmp.obj)
+00018ea0 00000000     0                         DATA.
+00018ea0 00000000     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(strcpy.obj)
+00018ea0 00000000     0                         DATA.
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_udivdi3.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_umoddi3.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_addsub_df.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_mul_df.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_compare_df.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_si_to_df.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_si.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_negate_df.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_clz.o)
+00018ea0 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_fpcmp_parts_df.o)
+00018ea0 00000000     1         .data.*
+00018ea0 000000df     4         .gnu.linkonce.d.*
+00018ea0 00000001     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(array_del.obj)
+00018ea0 00000001     0                         std::bad_alloc type_info node
+00018ea4 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00018ea4 00000018     0                         std::exception virtual table
+00018ebc 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00018ebc 00000018     0                         std::bad_exception virtual table
+00018ed4 00000014     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00018ed4 00000014     0                         std::exception type_info function
+00018ee8 00000014     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00018ee8 00000014     0                         std::bad_exception type_info function
+00018efc 00000001     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00018efc 00000001     0                         std::exception type_info node
+00018efd 00000001     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(exception.obj)
+00018efd 00000001     0                         std::bad_exception type_info node
+00018f00 00000010     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f00 00000010     0                         std::type_info virtual table
+00018f10 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f10 00000018     0                         std::bad_cast virtual table
+00018f28 00000018     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f28 00000018     0                         std::bad_typeid virtual table
+00018f40 00000014     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f40 00000014     0                         std::type_info type_info function
+00018f54 00000014     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f54 00000014     0                         std::bad_cast type_info function
+00018f68 00000014     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f68 00000014     0                         std::bad_typeid type_info function
+00018f7c 00000001     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f7c 00000001     0                         std::type_info type_info node
+00018f7d 00000001     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f7d 00000001     0                         std::bad_cast type_info node
+00018f7e 00000001     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(typeinfo.obj)
+00018f7e 00000001     0                         std::bad_typeid type_info node
+00018f7f 00000000     1         <default>
+00018f80 00000004     4 .lib.stub.btm
+00018f80 00000004     4         <default>
+00018f80 00000004     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+00018f80 00000004     0                         __end_of_section_lib_stub
+00018f84 00000004     4 .lib.stub.top
+00018f84 00000004     4         <default>
+00018f84 00000004     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+00018f84 00000004     0                         __begin_of_section_lib_stub
+00018f88 00000004     4 .lib.ent.btm
+00018f88 00000004     4         <default>
+00018f88 00000004     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+00018f88 00000004     0                         __end_of_section_lib_ent
+00018f8c 00000004     4 .lib.ent.top
+00018f8c 00000004     4         <default>
+00018f8c 00000004     4                 \\ctstudent2\users\100068439\My Documents\Semester 4\Console Development\Cross-Development\Cross-Platform\PSP_Release\Main.obj
+00018f8c 00000004     0                         __begin_of_section_lib_ent
+00018f90 00000000     1 .data1
+00018f90 00000000     1         .data1
+00018f90 00000000     1         <default>
+00018f90 00000000     1 .tdata
+00018f90 00000000     1         .tdata
+00018f90 00000000     1         .tdata.*
+00018f90 00000000     1         .gnu.linkonce.td.*
+00018f90 00000000     1         <default>
+00018f90 00000000     1 .tbss
+00018f90 00000000     1         .tbss
+00018f90 00000000     1         .tbss.*
+00018f90 00000000     1         .gnu.linkonce.tb.*
+00018f90 00000000     1         .tcommon
+00018f90 00000000     1         <default>
+00018f90 00000074     4 .eh_frame
+00018f90 00000074     4         .eh_frame
+00018f90 00000034     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_udivdi3.o)
+00018fc4 00000040     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_umoddi3.o)
+00019004 00000000     1         <default>
+00019004 00000000     1 .gcc_except_table
+00019004 00000000     1         .gcc_except_table
+00019004 00000000     1         <default>
+00019004 00000000     1 .dynamic
+00019004 00000000     1         .dynamic
+00019004 00000000     1         <default>
+00019004 00000008     4 .ctors
+00019008 00000000     1         .ctors
+00019008 00000000     1                 COMMON
+00019004 00000000     0                         __CTOR_LIST__
+0001900c 00000000     1         <default>
+0001900c 00000008     4 .dtors
+00019010 00000000     1         .dtors
+00019010 00000000     1                 COMMON
+0001900c 00000000     0                         __DTOR_LIST__
+00019014 00000000     1         <default>
+00019014 00000000     1 .jcr
+00019014 00000000     1         .jcr
+00019014 00000000     1         <default>
+00019014 00000000     1 .got
+00019014 00000000     1         .got.plt
+00019014 00000000     1         .got
+00019014 00000000     1         <default>
+00019014 00000000     1 .sdata
+00019014 00000000     1         .sdata
+00019014 00000000     1         .sdata.*
+00019014 00000000     1         .gnu.linkonce.s.*
+00019014 00000000     1         <default>
+00019014 00000000     1 .lit8
+00019014 00000000     1         .lit8
+00019014 00000000     1         <default>
+00019014 00000000     1 .lit4
+00019014 00000000     1         .lit4
+00019014 00000000     1         <default>
+00019014 00000000     1 .sbss
+00019014 00000000     1         .dynsbss
+00019014 00000000     1         .sbss
+00019014 00000000     1         .sbss.*
+00019014 00000000     1         .gnu.linkonce.sb.*
+00019014 00000000     1         .scommon
+00019014 00000000     1         <default>
+00019040 0010ad10    40 .bss
+00019040 00000000     1         .dynbss
+00019040 000021d8     8         .bss
+00019040 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\crt0_prx.o
+00019040 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\kernel_bridge.o
+00019040 00000004     0                         currentheap
+00019044 00000004     0                         minheap
+00019048 00000004     0                         maxheap
+0001904c 00000004     0                         mbid
+00019050 00000008     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(mlock1.obj)
+00019050 00000004     0                         locks
+00019054 00000004     0                         saved_status
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_10.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_16.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_18.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_19.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_4.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_7.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_IoFileMgrForUser_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_1.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_5.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_9.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_Kernel_Library_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_1.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_10.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_12.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_14.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_5.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ModuleMgrForUser_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_1.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_4.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_5.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_StdioForUser_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_1.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_10.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_2.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_3.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_6.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_8.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_SysMemUserForUser_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_12.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_128.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_131.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_26.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_33.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_34.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_40.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_65.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_89.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_ThreadManForUser_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_13.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_19.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_3.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\libkernel.a(_UtilsForUser_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_1.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_3.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_12.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\display_stub.a(_sceDisplay_0011_head.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_1.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_2.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_4.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_7.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_10.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_11.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_12.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_13.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_16.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_17.o)
+00019058 00000000     1                 C:\cygwin\usr\local\psp\devkit\lib\ge_user_stub.a(_sceGe_user_0011_head.o)
+00019058 00002018     8                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(throw.obj)
+00019058 00000014     0                         initial_mem_block_descr
+00019070 00002000     0                         initial_mem_block
+0001b070 00000004     4                 C:\Program Files (x86)\SN Systems\PSP\lib\libsncpp.a(dtor_list.obj)
+0001b070 00000004     0                         needed_destruction_head
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_sf_to_df.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_div_df.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_df.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_sf.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_thenan_df.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_sf.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_make_sf.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_df.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_unpack_df.o)
+0001b074 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_pack_sf.o)
+0001b074 00000124     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfprintf.obj)
+0001b074 000000a4     0                         LS.3.str
+0001b118 00000080     0                         LS.7.pch
+0001b198 00000080     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libc.a(vfiprintf.obj)
+0001b198 00000080     0                         LS.0.pch
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_udivdi3.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_umoddi3.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_addsub_df.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_mul_df.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_compare_df.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_si_to_df.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_df_to_si.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_negate_df.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_clz.o)
+0001b218 00000000     1                 C:\Program Files (x86)\SN Systems\PSP\lib\libgcs.a(_fpcmp_parts_df.o)
+0001b218 000089f8     4         .bss.*
+0001b218 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001b218 00000010     0                         bParam.1
+0001b228 00000030     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001b228 00000030     0                         intrParam
+0001b258 00000538     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001b258 00000538     0                         g_Libgu
+0001b790 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001b790 00000010     0                         g_LibguDbgfontCb
+0001b7a0 00000400     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(libgu.o)
+0001b7a0 00000400     0                         g_SignalCallStack
+0001bba0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+0001bba0 00000004     0                         gu_debug_frame
+0001bba4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+0001bba4 00000004     0                         gu_debug_initialized
+0001bba8 00008000     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+0001bba8 00008000     0                         gu_fontbuf
+00023ba8 00000008     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023ba8 00000008     0                         gu_fontcnt
+00023bb0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023bb0 00000004     0                         gu_debug_vramtop
+00023bb4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023bb4 00000004     0                         gu_debug_fpf
+00023bb8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023bb8 00000004     0                         gu_debug_wbp
+00023bbc 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023bbc 00000004     0                         gu_debug_fbw
+00023bc0 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023bc0 00000004     0                         gu_debug_sw
+00023bc4 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgu.a(font.o)
+00023bc4 00000004     0                         gu_debug_sh
+00023bc8 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00023bc8 00000004     0                         cur_matrix
+00023bcc 00000004     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00023bcc 00000004     0                         cur_stack
+00023bd0 00000030     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00023bd0 00000030     0                         mat_stack
+00023c00 00000010     4                 C:\cygwin\usr\local\psp\devkit\lib\libgum.a(libgum.o)
+00023c00 00000010     0                         update
+00023c10 00000000     1         .gnu.linkonce.b.*
+00023c40 00100110    40         COMMON
+00023c40 00100000    40                 COMMON
+00023c40 00100000    40                         _displist
+00123c40 00000100    10                 COMMON
+00123c40 00000100    10                         _matrixStack
+00123d40 00000004     4                 COMMON
+00123d40 00000004     4                         errno
+00123d44 00000004     4                 COMMON
+00123d44 00000004     4                         __catch_clause_number
+00123d48 00000001     1                 COMMON
+00123d48 00000001     1                         __TID_v
+00123d4c 00000004     4                 COMMON
+00123d4c 00000004     4                         __caught_object_address
+00123d50 00000000     1         <default>
+00000000 00000000     1 .stab
+00000000 00000000     1         .stab
+00000000 00000000     1         <default>
+00000000 00000000     1 .stabstr
+00000000 00000000     1         .stabstr
+00000000 00000000     1         <default>
+00000000 00000000     1 .stab.excl
+00000000 00000000     1         .stab.excl
+00000000 00000000     1         <default>
+00000000 00000000     1 .stab.exclstr
+00000000 00000000     1         .stab.exclstr
+00000000 00000000     1         <default>
+00000000 00000000     1 .stab.index
+00000000 00000000     1         .stab.index
+00000000 00000000     1         <default>
+00000000 00000000     1 .stab.indexstr
+00000000 00000000     1         .stab.indexstr
+00000000 00000000     1         <default>
+00000000 00000000     1 .comment
+00000000 00000000     1         .comment
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug
+00000000 00000000     1         .debug
+00000000 00000000     1         <default>
+00000000 00000000     1 .line
+00000000 00000000     1         .line
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_srcinfo
+00000000 00000000     1         .debug_srcinfo
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_sfnames
+00000000 00000000     1         .debug_sfnames
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_aranges
+00000000 00000000     1         .debug_aranges
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_pubnames
+00000000 00000000     1         .debug_pubnames
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_info
+00000000 00000000     1         .debug_info
+00000000 00000000     1         .gnu.linkonce.wi.*
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_abbrev
+00000000 00000000     1         .debug_abbrev
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_line
+00000000 00000000     1         .debug_line
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_frame
+00000000 00000000     1         .debug_frame
+00000000 00000000     1         <default>
+00000000 00006c84     1 .debug_str
+00000000 00006c84     1         .debug_str
+00000000 00006c84     1                 Dwarf1
+00006c84 00000000     1         <default>
+00000000 00000000     1 .debug_loc
+00000000 00000000     1         .debug_loc
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_macinfo
+00000000 00000000     1         .debug_macinfo
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_weaknames
+00000000 00000000     1         .debug_weaknames
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_funcnames
+00000000 00000000     1         .debug_funcnames
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_typenames
+00000000 00000000     1         .debug_typenames
+00000000 00000000     1         <default>
+00000000 00000000     1 .debug_varnames
+00000000 00000000     1         .debug_varnames
+00000000 00000000     1         <default>
+00000000 00000000     1 .gptab.sdata
+00000000 00000000     1         .gptab.data
+00000000 00000000     1         .gptab.sdata
+00000000 00000000     1         <default>
+00000000 00000000     1 .gptab.sbss
+00000000 00000000     1         .gptab.bss
+00000000 00000000     1         .gptab.sbss
+00000000 00000000     1         <default>
+00021010 00000000     0                         _gp
+00019014 00000000     0                         _edata
+00019014 00000000     0                         __bss_start
+00019014 00000000     0                         _fbss
+00123d50 00000000     0                         _end
